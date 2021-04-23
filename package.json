@@ -7,7 +7,14 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.6",
     "core-js": "^3.6.5",
+    "express": "^4.17.1",
+    "express-validator": "^6.10.0",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.95.4",
+    "pg": "^8.6.0",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
@@ -19,6 +26,7 @@
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0",
     "sass": "^1.26.5",
-    "sass-loader": "^8.0.2"
+    "sass-loader": "^8.0.2",
+    "vue-cli-plugin-vuetify": "~2.3.1"
   }
 }
